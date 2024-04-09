@@ -1,0 +1,13 @@
+Escape Squence 혹은 control squence
+
+\a : alert
+\n : new line
+\t : horizontal tab
+\v : vertical tab
+\b : backspace
+\f : form feed
+\r : carriage return
+\\ : backslash
+\', \" : single&double quotes
+\ooo : 8진수 숫자로 ASCII 문자 표현
+\xhh : 16진수 숫자로 ASCII 문자 표현

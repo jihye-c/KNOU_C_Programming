@@ -1,0 +1,35 @@
+Data types (자료형)
+
+1. char : Stores a single character/letter/number/ASCII
+    1byte (8bit)
+
+2. int : Stores whole number, without demical
+    2 OR 4 bytes (16bit 32bit)
+
+3. float : Stores fractional number, containing one or more decimals.
+    4 bytes (32bit)
+
+4. double : Stores fractional numbers, containing one or more decimals.
+    8 bytes (64bit)
+
+-------------------------------------------------
+
+1. CHAR
+
+    store a single character. The character must be surrounded by single quotes.
+    if not surrounded by quotes, you can use ASCII values to display certain characters.
+
+2. Numberic Data Types.
+
+    The precision(정밀도) of float is six or seven decimal digits.
+    while double have a precision of about 15 digits.
+
+    +a 
+    Set Decimal Precision (소수점 정밀도 설정)
+
+    you can use a dot followed by a number that specifies how many digits that should be shown after the decimal point.
+
+    float myFloat = 4.5;
+    printf("%f\n", myFloat); // 4.500000
+    printf("%.1f\n", myFloat); // 4.5
+    printf("%.4f", myFloat); // 4.5000
