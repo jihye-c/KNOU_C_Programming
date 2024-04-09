@@ -1,0 +1,73 @@
+Operators.
+
+C divides the operators into the following groups:
+    1. Arithmetic operators (산술연산자)
+    2. Assignment operators (할당연산자)
+    3. Comparison operators (비교연산자)
+    4. Logical operators (논리연산자)
+    5. Bitwise operators (비트연산자)
+
+-----------------------------------------------------------------------
+
+1. Arithmetic operators (산술연산자)
+
+    + (Addition)
+        Adds together tow values
+
+    - (Subtraction)
+        Subtracts one value from another
+
+    * (Multiplication)
+        Multiplies tow values
+
+    / (Division)
+        Divides one value by another
+
+    % (Modulus)
+        Returns the division remainder(나머지)
+
+    ++ (Increment)
+        Increases the value of a variable by 1
+
+    -- (Decrement)
+        Decreases the value of a variable by 1
+
+-----------------------------------------------------------------------
+
+2. Assignment Operators (할당연산자)
+
+    Assignment operators are used to assign values to variables.
+    It can be used with other operators.
+
+    = 
+        x=5   ==   x=5
+
+    +=
+        x += 3   ==   x = x + 3
+
+    -+
+        x -= 3   ==   x = x - 3
+
+    *=
+        x *= 3   ==   x = x * 3
+    
+    /=
+    	x /= 3   ==   x = x / 3
+
+    %=
+    	x %= 3   ==   x = x % 3
+        
+    &=
+    	x &= 3   ==   x = x & 3
+
+    |=
+    	x |= 3   ==   x = x | 3
+
+    ^=
+    	x ^= 3   ==   x = x ^ 3
+
+    >>=
+    	x >>= 3   ==   x = x >> 3
+
+    <<=
+    	x <<= 3   ==   x = x << 3	
