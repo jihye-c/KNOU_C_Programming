@@ -1,5 +1,7 @@
 Declaring Variables(변수 선언)
 
+-------------------------------------------------
+
 1. Default syntax 기본 문법
     type variableName = value;
 
@@ -19,7 +21,6 @@ Declaring Variables(변수 선언)
     %c : char
     %s : string
 
-
     ex)
 
     int length = 4;
@@ -31,5 +32,86 @@ Declaring Variables(변수 선언)
     printf("Length is %d \n Width is : %d \n", length, width);
     printf("Area of the rectangle is : %d", area);
 
-        
+-------------------------------------------------        
     
+3. Data types (자료형)
+
+3-1. char : Stores a single character/letter/number/ASCII 
+            The character must be surrounded by single quotes.
+            if not surrounded by quotes, you can use ASCII values to display certain characters.
+
+    1byte (8bit)
+
+3-2. int : Stores whole number, without demical
+    2 OR 4 bytes (16bit 32bit)
+
+3-3. float : Stores fractional number, containing one or more decimals.
+    4 bytes (32bit)
+
+3-4. double : Stores fractional numbers, containing one or more decimals.
+    8 bytes (64bit)
+
+    ※  The precision(정밀도) of float is six or seven decimal digits. while double have a precision of about 15 digits.
+
+
+4. Set Decimal Precision (소수점 정밀도 설정)
+
+    you can use a dot followed by a number that specifies how many digits that should be shown after the decimal point.
+
+    float myFloat = 4.5;
+    printf("%f\n", myFloat); // 4.500000
+    printf("%.1f\n", myFloat); // 4.5
+    printf("%.4f", myFloat); // 4.5000
+
+5. Get the memory size
+
+    int myInt;
+    int myFloat
+
+    printf("%lu\n",  sizeOf(myInt));
+    printf("%lu\n",  sizeOf(myFloat));
+
+    Why use %lu format specifer?
+        -> becuase the compiler expects the sizeof operator to return a long unsigned int, instead of int.
+
+6. Type Conversion (타입 변환)
+
+    You want to change th int to float, you have to do type conversion.
+    if you try to divide two integers, 5 by 2, you would expect the result to be 2.5.
+
+    int x = 5;
+    int y = 2;
+    int sum = 5 / 2;
+
+    printf("%d",sum); //2
+
+    To get right result, you have to type conversion.
+
+    Types of Conversion in C :
+        - Implicit Conversion (automatically)
+        - Explicit Conversion (manually)
+
+    6-1. Implicit Conversion
+
+        This is done automatically by the compiler when you assign(할당, 지정) a value of one type to another.
+        This can be risky, as you might lose control over specific(특정한) values in certain situcations.  //특정 상황에서 특정 값에 대한 통제력 상실
+
+        float myFloat = 9;
+        printf("%f", myFloat);
+
+    6-2. Explicit Conversion
+        
+        Placing the type in parentheses () in front of the value.
+
+        int num1 = 5;
+        int num2 = 2;
+        float sum = (float) num1 / num2;
+        //float sum = (float) num1 / num2; !! then you lose 0.5
+
+        printf("%.1f", sum); //2.5
+        
+
+
+
+
+

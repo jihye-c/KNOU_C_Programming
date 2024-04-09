@@ -56,7 +56,7 @@ C divides the operators into the following groups:
 
     %=
     	x %= 3   ==   x = x % 3
-        
+
     &=
     	x &= 3   ==   x = x & 3
 
@@ -71,3 +71,31 @@ C divides the operators into the following groups:
 
     <<=
     	x <<= 3   ==   x = x << 3	
+
+-----------------------------------------------------------------------
+
+3. Comparision operators
+
+    The return value of a comparision is either 1 or 0. which means true(1) or false(0).
+    These values are known as Boolean values.
+
+    == (Equal to)
+    != (Not equal)
+    > (Greater than)
+    < (Less than)
+    >= (Greater than or equal to)
+    <= (Less than or equal to)
+
+-----------------------------------------------------------------------
+
+4. Logical Operators
+
+    You can also test for true of false values with logical operators.
+    Logical operators are used to determine(결정하다) the logic between variables or values.
+
+    && (Logical and)
+        Returns 1 if both statements are true.
+    || (Logical or)
+        Returns 1 fi one of the statements is true.
+    ! (Logical not)
+        Reverse the result
