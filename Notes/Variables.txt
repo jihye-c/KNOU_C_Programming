@@ -53,6 +53,11 @@ Declaring Variables(변수 선언)
 
     ※  The precision(정밀도) of float is six or seven decimal digits. while double have a precision of about 15 digits.
 
+3-5. Booleans
+    In C, the bool(boolean) type is not a built-in data type.
+    It was intorudeced in C99. then, you must import the headerfile to use it
+    #include <stdbool.h>
+
 
 4. Set Decimal Precision (소수점 정밀도 설정)
 
@@ -110,8 +115,3 @@ Declaring Variables(변수 선언)
 
         printf("%.1f", sum); //2.5
         
-
-
-
-
-
