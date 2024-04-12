@@ -1,0 +1,34 @@
+Loops
+
+Loops can excute a block of code as long as a specified condition is reached.
+Loops are save time, reduce erros, and they make code more readable.
+
+-----------------------------------------------------------------------------
+
+1. While Loop
+
+    The while through a block of code as long as a specified condition is true.
+
+    ```
+    while (condition){
+        //code block to be executed
+    }
+    ```
+
+-----------------------------------------------------------------------------
+
+2. Do/While Loop
+
+    The Do/While is variant of the while loop. This loop will excute the code block once,
+    before checking if the condition is true, then it will repeat the loop as long as the condition is true.
+
+    Do/while excute the code block at least once, regardless of the true/false of the condition.
+
+    ```
+    do{
+        //code block to be excuted
+    }
+    while(condition);
+    ```
+
+    
